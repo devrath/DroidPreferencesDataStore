@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/dimen_screen_spacing"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        app:srcCompat="@drawable/ic_smilie"
+        android:contentDescription="@string/img_desc" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_disp_txt"
+        android:layout_marginBottom="@dimen/dimen_disp_txt"
+        android:textSize="@dimen/dimen_display_size" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_data"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/enter_data_to_save"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/strSave"
+        android:drawablePadding="@dimen/dimen_btn_drawable"
+        android:drawableEnd="@drawable/ic_save"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

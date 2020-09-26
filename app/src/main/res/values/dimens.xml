@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_screen_spacing">50dp</dimen>
+    <dimen name="img_size">100dp</dimen>
+    <dimen name="dimen_display_size">20sp</dimen>
+    <dimen name="dimen_disp_txt">50dp</dimen>
+    <dimen name="dimen_btn_drawable">10dp</dimen>
+</resources>
